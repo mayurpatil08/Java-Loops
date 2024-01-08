@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class DoWhileLoop {
+    public static void main( String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number you want to execute a loop :");
+        int num = sc.nextInt();
+        int i=1;
+        do{
+            System.out.println(i+" Loop is executed");
+            i++;
+        }while(i<=num);
+    }
+}
+
+
+Output
+
+Enter the number you want to execute a loop :
+5
+1 Loop is executed
+2 Loop is executed
+3 Loop is executed
+4 Loop is executed
+5 Loop is executed
+
+Process finished with exit code 0

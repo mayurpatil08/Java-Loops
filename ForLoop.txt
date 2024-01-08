@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class For {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number:");
+        int num = sc.nextInt();
+        for (int i=1;i<=num;i++){
+            System.out.println(i+" loop is executed.");
+        }
+    }
+}
+
+output
+
+Enter the number you want to execute a loop :
+5
+1 loop is executed.
+2 loop is executed.
+3 loop is executed.
+4 loop is executed.
+5 loop is executed.
+
+Process finished with exit code 0
